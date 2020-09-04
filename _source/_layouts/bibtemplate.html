@@ -1,0 +1,45 @@
+---
+---
+
+{{ reference }}
+<div class="row">
+<div class="col-md-2">
+		<div class="btn-group">
+			<button type="button" class="btn btn-info btn-xs dropdown-toggle" data-toggle="dropdown" >
+				Bib Entry
+				<span class="caret"></span>
+			</button>
+			<ul class="dropdown-menu dropdown-menu-left" role="menu">
+				<li><pre>{{ entry.bibtex }}</pre></li>
+			</ul>
+		</div>
+	</div>
+	<div class="col-md-7">
+			{% if entry.pdf %}
+				<a role="button" class="btn btn-primary btn-xs"  href="{{ entry.pdf }}" target="_blank">pdf</a>
+			{% endif %}
+			{% if entry.slides %}
+				<a role="button" class="btn btn-primary btn-xs" href="../files/papers/{{ entry.key }}_slides.pdf" target="_blank">slides</a>
+			{% endif %}
+			{% if entry.poster %}
+				<a role="button" class="btn btn-primary btn-xs" href="../files/papers/{{ entry.key }}_poster.pdf" target="_blank">poster</a>
+			{% endif %}
+			{% if entry.code %}
+				<a role="button" class="btn btn-info btn-xs" href="../files/papers/{{ entry.code }}" target="_blank">code</a>
+			{% endif %}
+			{% if entry.github %}
+				<a role="button" class="btn btn-info btn-xs" href="{{ entry.github }}" target="_blank">github</a>
+			{% endif %}
+			{% if entry.doi %}
+				<a role="button" class="btn btn-warning btn-xs" href="https://doi.org/{{ entry.doi }}" target="_blank">doi</a>
+			{% endif %}
+			{% if entry.url and entry.github != entry.url %}
+				<a role="button" class="btn btn-warning btn-xs" href="{{ entry.url }}" target="_blank" target="_blank">web</a>
+			{% endif %}
+			{% if entry.website %}
+				<a role="button" class="btn btn-warning btn-xs" href="{{ entry.website }}" target="_blank">journal/conference website</a>
+			{% endif %}
+	</div>
+	<br><br>
+</div>
+

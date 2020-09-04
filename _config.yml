@@ -1,0 +1,175 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+source                   : _source
+destination              : _site
+
+# Fix warning:  GitHub Metadata: No GitHub API authentication could be found. Some fields may be missing or have incorrect data.
+github: [metadata]
+
+
+title                    : Project RADICAL
+title_separator          : "|"
+email:
+description              : >- # this means to ignore newlines until "baseurl:"
+  Information about the Leverhulme Trust-funded RADICAL Project.
+url                      : "https://projectradical.github.io"
+baseurl                  : ""
+
+twitter_username         : "drpaulvickers"
+github_username          : "projectRadical"
+minimal_mistakes_skin    : mint # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
+search                   : true
+logo                     : "assets/images/logo.png"
+masthead_title           : "RADICAL"
+og_image                 : /assets/images/site-logo.png
+
+head_scripts:
+  - https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js
+  - https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js
+
+# Build settings
+markdown: kramdown
+remote_theme: mmistakes/minimal-mistakes
+# Outputting
+permalink: /:categories/:title/
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
+timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+include:
+  - _pages
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+  - jekyll/scholar
+
+author:
+  name   : "RADICAL"
+  avatar : "/assets/images/RADICALGitHub.svg"
+  bio    : "Sonification, aesthetics, and listening"
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/drpaulvickers"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/projectRadical"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/"
+
+
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/drpaulvickers"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/projectRadical"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/"
+
+defaults:
+  # home
+  - scope:
+      path: ""
+      type: single
+    values:
+      author_profile: false
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+scholar:
+  style: apa-nvv.csl
+  locale: en
+  bibtex_skip_fields: [keywords, github, abstract,  month_numeric, annote, bdsk-file-1, bdsk-file-2, bdsk-url-1, bdsk-url-2, bdsk-url-3, date-added, date-modified]
+  
+  type_aliases: { incollection: inbook }
+  type_names: { article: Articles, inproceedings: 'Conference Papers', proceedings: 'Conference Proceedings', inbook: 'Book Chapters', misc: 'Repositories, Patent Applications, etc.'}
+  #type_order: [article,inbook,incollection,inproceedings,misc]
+  #type_order: [misc,inproceedings,incollection,inbook,article]
+  sort_by: year,month
+  order: descending
+  type_order: [misc,techreport, thesis, book, inbook, proceedings, inproceedings,  article]
+  
+  group_by: year,type
+  group_order: descending
+
+
+  source: ./_bibliography
+  bibliography: research.bib
+#  bibliography_template: "{{reference}}"
+  bibliography_template: bibtemplate
+
+  replace_strings: true
+  join_strings:    true
+
+#  use_raw_bibtex_entry: true
+  bibtex_filters:
+  - superscript
+  - latex
+
+  details_dir:    bibliography
+  details_layout: bibtex.html
+  details_link:   Details
+  bibliography_list_attributes: {reversed}
+  bibliography_list_tag: ul
+
+  query: "@*[keywords ^= webrefs]"
+
