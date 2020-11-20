@@ -1742,3 +1742,23 @@ input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="butto
 .btn-group-justified > .btn-group .dropdown-menu { left: auto; }
 
 [data-toggle="buttons"] > .btn input[type="radio"], [data-toggle="buttons"] > #goog-wm-sb input[type="radio"], [data-toggle="buttons"] > .btn input[type="checkbox"], [data-toggle="buttons"] > #goog-wm-sb input[type="checkbox"], [data-toggle="buttons"] > .btn-group > .btn input[type="radio"], [data-toggle="buttons"] > .btn-group > #goog-wm-sb input[type="radio"], [data-toggle="buttons"] > .btn-group > .btn input[type="checkbox"], [data-toggle="buttons"] > .btn-group > #goog-wm-sb input[type="checkbox"] { position: absolute; clip: rect(0, 0, 0, 0); pointer-events: none; }
+
+/*
+GS: override any CSS with new CSS styles AFTER the `@import "minimal-mistakes";` line just above!
+See: https://github.com/mmistakes/minimal-mistakes/issues/1219#issuecomment-326809412
+Anything you place after this point will therefore "cascade and override" the previous CSS styles.
+*/
+/*
+GS: Decrease font sizes of the entire website.
+Defaults for small, medium, large, and x-large screens are:
+16, 18, 20, and 22px, in that order. All other font sizes are "em"
+[typography unit](https://en.wikipedia.org/wiki/Em_(typography)) multipliers of these pixel
+(px) values, and are therefore relative to and changed by these singular pixel values.
+See: https://github.com/mmistakes/minimal-mistakes/issues/1219#issuecomment-326809412
+- It looks like the screen pixel sizes to move into each new "size" category are defined in the "Breakpoints" section of "_variables.scss"?
+*/
+html { font-size: 14px; }
+@media (min-width: 37.5em) { html { font-size: 15px; } }
+@media (min-width: 48em) { html { font-size: 17px; } }
+@media (min-width: 64em) { html { font-size: 19px; } }
+@media (min-width: 80em) { html { font-size: 21px; } }

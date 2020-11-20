@@ -1,0 +1,3 @@
+ol.bibliography { list-style-type: none; }
+ol.bibliography > li:before{content: counter(bibitem) ". ";}
+ol.bibliography > li {counter-increment: bibitem -1;}
