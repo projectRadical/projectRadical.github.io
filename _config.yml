@@ -28,12 +28,14 @@ description              : >- # this means to ignore newlines until "baseurl:"
 url                      : "https://projectradical.github.io"
 baseurl                  : ""
 
-twitter_username         : "drpaulvickers"
+twitter:
+  username         : "drpaulvickers"
 github_username          : "projectRadical"
+
 minimal_mistakes_skin    : mint # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
 search                   : true
-logo                     : "assets/images/logo.png"
-masthead_title           : "RADICAL"
+logo                     : "/assets/images/RadicalLogo.png" #logo.png"
+masthead_title           : " "
 og_image                 : /assets/images/site-logo.png
 
 head_scripts:
@@ -46,11 +48,12 @@ remote_theme: mmistakes/minimal-mistakes
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
-paginate_path: /page:num/
+paginate_path: "/news/page:num/"
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
-include:
+include: 
   - _pages
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -82,12 +85,13 @@ author:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/drpaulvickers"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/projectRadical"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+    #- label: "GitHub"
+    #  icon: "fab fa-fw fa-github"
+    #  url: "https://github.com/projectRadical"
+    #- label: "Instagram"
+    #  icon: "fab fa-fw fa-instagram"
+    #  url: "https://instagram.com/"
+  github : "projectRadical"
 
 
 footer:
@@ -98,9 +102,9 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/projectRadical"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+    #- label: "Instagram"
+    #  icon: "fab fa-fw fa-instagram"
+    #  url: "https://instagram.com/"
 
 defaults:
   # home
