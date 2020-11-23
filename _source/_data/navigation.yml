@@ -1,13 +1,15 @@
 main:
+  - title: "Home"
+    url: /
   - title: "News"
     url: /news/
-  - title: "People"
-    url: /people/
   - title: "Categories"
     url: /categories/
   - title: "Publications"
     url: /publications/
 #  - title: "Tags"
 #    url: /tags/
+  - title: "People"
+    url: /people/
   - title: "About"
     url: /about/
