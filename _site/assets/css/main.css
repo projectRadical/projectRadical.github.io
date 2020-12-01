@@ -254,7 +254,7 @@ a:hover { color: #0d7377; outline: 0; }
 
 /* buttons */
 /* code */
-tt, code, kbd, samp, pre { font-family: Monaco, Consolas, "Lucida Console", monospace; }
+tt, code, kbd, samp, pre { font-family: "Droid Sans Mono", Monaco, Consolas, "Lucida Console", monospace; }
 
 pre { overflow-x: auto; /* add scrollbars to wide code blocks*/ }
 
@@ -425,7 +425,7 @@ tr, td, th { vertical-align: middle; }
 /* Components */
 /* ========================================================================== BUTTONS ========================================================================== */
 /* Default button ========================================================================== */
-.btn, #goog-wm-sb { /* default */ display: inline-block; margin-bottom: 0.25em; padding: 0.5em 1em; font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif; font-size: 0.75em; font-weight: bold; text-align: center; text-decoration: none; border-width: 0; border-radius: 4px; cursor: pointer; /* button colors */ /* fills width of parent container */ /* disabled */ /* extra large button */ /* large button */ /* small button */ }
+.btn, #goog-wm-sb { /* default */ display: inline-block; margin-bottom: 0.25em; padding: 0.5em 1em; /*font-family: $sans-serif;*/ font-family: "Droid Sans Mono", monospace, monospace; font-size: 0.75em; font-weight: bold; text-align: center; text-decoration: none; border-width: 0; border-radius: 4px; cursor: pointer; /* button colors */ /* fills width of parent container */ /* disabled */ /* extra large button */ /* large button */ /* small button */ }
 .btn .icon, #goog-wm-sb .icon { margin-right: 0.5em; }
 .btn .icon + .hidden, #goog-wm-sb .icon + .hidden { margin-left: -0.5em; /* override for hidden text*/ }
 .btn--primary { background-color: #11999e; color: #fff; }
@@ -708,7 +708,7 @@ tr, td, th { vertical-align: middle; }
 .archive__item-excerpt .ais-Highlight { color: #11999e; font-style: normal; font-weight: bold; }
 
 /* ========================================================================== Syntax highlighting ========================================================================== */
-div.highlighter-rouge, figure.highlight { position: relative; margin-bottom: 1em; background: #263238; color: #eeffff; font-family: Monaco, Consolas, "Lucida Console", monospace; font-size: 0.75em; line-height: 1.8; border-radius: 4px; }
+div.highlighter-rouge, figure.highlight { position: relative; margin-bottom: 1em; background: #263238; color: #eeffff; font-family: "Droid Sans Mono", Monaco, Consolas, "Lucida Console", monospace; font-size: 0.75em; line-height: 1.8; border-radius: 4px; }
 div.highlighter-rouge > pre, div.highlighter-rouge pre.highlight, figure.highlight > pre, figure.highlight pre.highlight { margin: 0; padding: 1em; }
 
 .highlight table { margin-bottom: 0; font-size: 1em; border: 0; }

@@ -10,6 +10,20 @@ The RADICAL project is funded by a Leverhulme Trust Research Project Grant (RPG-
 
 The project is scheduled to start in January, 2021 and will run for three years.
 
+## Research Fellow opportunity
+We are seeking one Research Fellow at Northumbria to work on the RADICAL project with a primary focus on the design and implementation of data sonifications. You will likely have a technical background in computer science or human-computer interaction and a demonstrable interest in sonification, sonic interaction design, or digital audio.
+
+The project has recently appointed to the project a research associate at Newcastle University with a focus on ethnographic evaluation of technologically-mediated musical and sonicarts practice. Therefore, a degree of familiarity with, or ability to adapt to the basics of the Newcastle focus will be significant in developing interdisciplinary collaboration with the Newcastle team.
+
+This is an exciting opportunity to collaborate on a new area of interdisciplinary research. 
+
+[HOW TO APPLY](#link){: .btn .btn--warning} For more details on the post and for information on how to apply, please visit the [Northumbria University recruitment portal](https://www.northumbria.ac.uk/work-for-us/job-vacancies/professional-3241-research-fellow-in-sonification-design-and-aesthetics). 
+**Closing Date 03 January, 2021.** 
+For an informal chat about the position please contact [Paul Vickers](mailto:paul.vickers@northumbria.ac.uk?subject=EAE/19/3241: Research Fellow in Sonification Design and Aesthetics).
+{: .notice--warning}
+
+
+
 ## Background
 Sonification represents (signifies) data and relationships between data through sound (like a Geiger counter for data) but is still not widely accepted. The sonification research community's understanding of the role played by embodied perception, spatial considerations, and aesthetics in our listening to, and perception of, sonification is very limited. These aspects of sonification cannot be addressed except through an interdisciplinary approach, and this project draws together proven experts in computer science, sonification, listening and perception, ethnography, music composition, and aesthetics to foster a fundamentally new understanding from which to derive concrete guidelines for better and more successful sonification design.
 
