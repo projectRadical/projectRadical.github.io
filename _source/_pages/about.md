@@ -17,7 +17,7 @@ The project has recently appointed to the project a research associate at Newcas
 
 This is an exciting opportunity to collaborate on a new area of interdisciplinary research. 
 
-[HOW TO APPLY](#link){: .btn .btn--warning} For more details on the post and for information on how to apply, please visit the [Northumbria University recruitment portal](https://www.northumbria.ac.uk/work-for-us/job-vacancies/professional-3241-research-fellow-in-sonification-design-and-aesthetics). 
+[HOW TO APPLY](#link){: .btn .btn--danger} For more details on the post and for information on how to apply, please visit the [Northumbria University recruitment portal](https://www.northumbria.ac.uk/work-for-us/job-vacancies/professional-3241-research-fellow-in-sonification-design-and-aesthetics). 
 **Closing Date 03 January, 2021.** 
 For an informal chat about the position please contact [Paul Vickers](mailto:paul.vickers@northumbria.ac.uk?subject=EAE/19/3241: Research Fellow in Sonification Design and Aesthetics).
 {: .notice--warning}
