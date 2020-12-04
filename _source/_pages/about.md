@@ -50,7 +50,7 @@ Gerriet K. Sharma talks with Angela McArthur about the IKO at [Soundstack, 2019]
 
 * [Dr Paul Vickers](https://www.northumbria.ac.uk/about-us/our-staff/v/dr-paul-vickers/){:target="_blank"} (Northumbria University) &mdash; Project Lead and Principal Investigator
 * TBA (Northumbria University) Research Fellow
-* TBA (Newcastle University) Research Associate
+* Dr Jorge Boehringer (Newcastle University) Research Associate
 * [Dr Bennett Hogg](https://www.ncl.ac.uk/sacs/staff/profile/bennetthogg.html){:target="_blank"} (Newcastle University) &mdash; Co-investigator
 * [Professor John Bowers](https://www.ncl.ac.uk/sacs/staff/profile/johnbowers.html){:target="_blank"} (Newcastle University) &mdash; Co-investigator
 * [Dr Tim Shaw](https://ncl.ac.uk/sacs/staff/profile/timshaw.html){:target="_blank"} (Newcastle University) &mdash; Co-Investigator
