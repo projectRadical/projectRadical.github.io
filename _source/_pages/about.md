@@ -47,5 +47,10 @@ Gerriet K. Sharma talks with Angela McArthur about the IKO at [Soundstack, 2019]
 * [Dr Joe Newbold](){:target="_blank"} (Northumbria University) &mdash; Lecturer
 
 
+## Previous publications related to this project
+
+[comment]: <> {% cite Bowers:2016 Bowers:2019 Bowers:2012 Bowers:2002 Freeth:2014 Hogg:2018 Shaw:2016 Shaw:2019 Shaw:2020 Vickers:2006a Vickers:2017 Vickers:2017c Vickers:2019b Vickers:2020 %}
+
+{% bibliography --query @* --cited --group_by none %}
 
 
