@@ -8,20 +8,7 @@ header:
 
 The RADICAL project is funded by a Leverhulme Trust Research Project Grant (RPG-2020-113).
 
-The project is scheduled to start in January, 2021 and will run for three years.
-
-## Research Fellow opportunity
-We are seeking one Research Fellow at Northumbria to work on the RADICAL project with a primary focus on the design and implementation of data sonifications. You will likely have a technical background in computer science or human-computer interaction and a demonstrable interest in sonification, sonic interaction design, or digital audio.
-
-The project has recently appointed to the project a research associate at Newcastle University with a focus on ethnographic evaluation of technologically-mediated musical and sonicarts practice. Therefore, a degree of familiarity with, or ability to adapt to the basics of the Newcastle focus will be significant in developing interdisciplinary collaboration with the Newcastle team.
-
-This is an exciting opportunity to collaborate on a new area of interdisciplinary research. 
-
-[HOW TO APPLY](#link){: .btn .btn--danger} For more details on the post and for information on how to apply, please visit the [Northumbria University recruitment portal](https://www.northumbria.ac.uk/work-for-us/job-vacancies/professional-3241-research-fellow-in-sonification-design-and-aesthetics). 
-**Closing Date 03 January, 2021.** 
-For an informal chat about the position please contact [Paul Vickers](mailto:paul.vickers@northumbria.ac.uk?subject=EAE/19/3241: Research Fellow in Sonification Design and Aesthetics).
-{: .notice--warning}
-
+The project commenced on 11 January, 2021 and will run for three years.
 
 
 ## Background
@@ -49,7 +36,7 @@ Gerriet K. Sharma talks with Angela McArthur about the IKO at [Soundstack, 2019]
 ### Core Team Members
 
 * [Dr Paul Vickers](https://www.northumbria.ac.uk/about-us/our-staff/v/dr-paul-vickers/){:target="_blank"} (Northumbria University) &mdash; Project Lead and Principal Investigator
-* TBA (Northumbria University) Research Fellow
+* Marcin Pietruszewski (Northumbria University) Research Fellow
 * Dr Jorge Boehringer (Newcastle University) Research Associate
 * [Dr Bennett Hogg](https://www.ncl.ac.uk/sacs/staff/profile/bennetthogg.html){:target="_blank"} (Newcastle University) &mdash; Co-investigator
 * [Professor John Bowers](https://www.ncl.ac.uk/sacs/staff/profile/johnbowers.html){:target="_blank"} (Newcastle University) &mdash; Co-investigator
@@ -59,9 +46,6 @@ Gerriet K. Sharma talks with Angela McArthur about the IKO at [Soundstack, 2019]
 ### Associate Team Members
 * [Dr Joe Newbold](){:target="_blank"} (Northumbria University) &mdash; Lecturer
 
-## Previous publications related to this project
 
-[comment]: <> {% cite Bowers:2016 Bowers:2019 Bowers:2012 Bowers:2002 Freeth:2014 Hogg:2018 Shaw:2016 Shaw:2019 Shaw:2020 Vickers:2006a Vickers:2017 Vickers:2017c Vickers:2019b Vickers:2020 %}
 
-{% bibliography --query @* --cited --group_by none %}
 

@@ -17,6 +17,9 @@ Core project staff
 ## Dr Paul Vickers (Northumbria University) &mdash; Principal Investigator
 [Paul Vickers](https://paulvickers.github.io){:target="_blank"} is Associate Professor in Computer Science and Computational Perceptualisation in the [Department of Computer and Information Sciences](https://www.northumbria.ac.uk/about-us/academic-departments/computer-and-information-sciences/){:target="_blank"} at [Northumbria University](https://www.northumbria.ac.uk/){:target="_blank"} in Newcastle upon Tyne, UK. His research focus is data sonification with current interests in sonification aesthetics and how this affects sonification listening and perception. Between 2004–2012 and 2015–2018 he served as an elected member of the board of the International Community for Auditory Display (http://icad.org/). In 2019 he chaired [ICAD 2019 – The 25th International Conference on Auditory Display](https://icad2019.icad.org/){:target="_blank"} at Northumbria University and he is co-chairing [ICAD 2021](https://icad2021.icad.org/){:target="_blank"} which will be held online.
 
+## Marcin Pietruszewski (Northumbria University) &mdash; Research Fellow
+[Marcin Pietruszewski](https://www.marcinpietruszewski.com/){:target="_blank"} is a composer and researcher. He is engaged in sound synthesis and composition with computers, exploring specific formal developments in the tradition of electroacoustic music and contemporary sound art, as well as extra-musical domains of auditory design, computational linguistics and psychoacoustics. He works across performance, multimedia installation and radio productions probing the dynamics between formalism of synthetic sound and its material realisation.                   
+
 
 ## Dr Bennett Hogg (Newcastle University) &mdash; Co-Investigator
 
