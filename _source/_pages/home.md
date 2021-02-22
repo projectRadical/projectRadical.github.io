@@ -13,7 +13,7 @@ Project RADICAL is as the ambitious goal of developing a fundamental understandi
 
 Follow this page for project news, links to events, publications, and software.
 
-**WE ARE RECRUITING**. See [Research Fellow Opportunity](/about)
+See [the about about page](/about) for a basic summary of the project.
 
 &mdash; [Paul Vickers](https://paulvickers.github.io/), Principal Investigator
 
