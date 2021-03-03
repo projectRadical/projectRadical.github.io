@@ -44,7 +44,7 @@ Gerriet K. Sharma talks with Angela McArthur about the IKO at [Soundstack, 2019]
 * [Dr Gerriet K. Sharma](https://www.gksh.net/){:target="_blank"} (Berlin) &mdash; Project Consultant (sound design and composition for IKO)
 
 ### Associate Team Members
-* [Dr Joe Newbold](){:target="_blank"} (Northumbria University) &mdash; Lecturer
+* [Dr Joe Newbold](https://www.northumbria.ac.uk/about-us/our-staff/n/joseph-newbold/){:target="_blank"} (Northumbria University) &mdash; Lecturer
 
 
 ## Previous publications related to this project
