@@ -11,7 +11,7 @@ sidebar:
 ## Welcome to Project RADICAL
 Project started 11 Jan 2021
 
-Project RADICAL is as the ambitious goal of developing a fundamental understanding of the relationship between sonification design and the listener and to stimulate a revitalised agenda for sonification research and practice.
+Project RADICAL has the ambitious goal of developing a fundamental understanding of the relationship between sonification design and the listener and to stimulate a revitalised agenda for sonification research and practice.
 
 Follow this page for project news, links to events, publications, and software.
 
