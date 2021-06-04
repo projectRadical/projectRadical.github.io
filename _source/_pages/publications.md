@@ -10,6 +10,9 @@ header:
   overlay_filter: rgba(72, 178, 216, 0.3)
 ---
 
+[comment]: <> {% cite Antolin:2021a Boehringer:2021a Boehringer:2021b Pietruszewski:2021a Vickers:2021a %}
+
+{% bibliography --query @* --cited %}
 
 
 
