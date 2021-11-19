@@ -5,6 +5,8 @@ main:
     url: /news/
   - title: "Categories"
     url: /categories/
+  - title: "Events"
+    url: /events/
   - title: "Publications"
     url: /publications/
 #  - title: "Tags"
